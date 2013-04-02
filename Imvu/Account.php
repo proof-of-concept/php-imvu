@@ -26,7 +26,7 @@ class ImvuAccount {
   * @param string avatar name of account that should be checked
   * @return boolean
   */
-	public function isValid($avatarName) {
+  public function isValid($avatarName) {
     return !preg_match('<!-- avatar not ready -->', file_get_contents('http://avatars.imvu.com/'.$avatarName);
   }
 
