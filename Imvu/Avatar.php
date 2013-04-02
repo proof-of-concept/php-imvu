@@ -27,7 +27,7 @@ class ImvuAvatar {
   * Stores session for request that rely on an open session
   * @var string
   */
-	private $_session = NULL;
+  private $_session = NULL;
 
   /**
   * Creates session from logged in imvu user
